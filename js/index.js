@@ -72,13 +72,13 @@ window.onload = function(){
 
         })
 
-        mains[0].addEventListener("transitionend",function(){
-            mask.remove();
-            anArr[0]["inAn"]();
-            home3D();
-            audio.play();
+//         mains[0].addEventListener("transitionend",function(){
+//             mask.remove();
+//             anArr[0]["inAn"]();
+//             home3D();
+//             audio.play();
 
-        })
+//         })
 
     }
 
@@ -86,15 +86,15 @@ window.onload = function(){
     //音频
 
 
-    music.onclick = function(){
-        if(audio.paused){
-            audio.play()
-            music.style.background = "url(./img/musicon.gif)"
-        }else{
-            audio.pause();
-            music.style.background = "url(./img/musicoff.gif)"
-        }
-    }
+//     music.onclick = function(){
+//         if(audio.paused){
+//             audio.play()
+//             music.style.background = "url(./img/musicon.gif)"
+//         }else{
+//             audio.pause();
+//             music.style.background = "url(./img/musicoff.gif)"
+//         }
+//     }
 
     /*出入场*/
     var anArr=[
